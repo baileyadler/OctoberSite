@@ -1,13 +1,30 @@
-.margot{
-    font-family: "margot", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
+
 .img{
     width:90px;
 }
 .navbar-brand{
     background-color: red;
+}
+a{
+    color:black;
+    
+}
+body{
+    background-color: lightgrey;
+}
+.card{
+    height:auto;
+    width:auto;
+   right:50px;
+   left:50px;
+   padding:10px;
+}
+
+header{
+    height:60px;
+}
+.card-body{
+    background-color:pink;
 }
 .nav-item{
     font-family: "rumba-extra", sans-serif;
@@ -23,5 +40,29 @@ font-style: normal;
 color:black;
 }
 .d-block{
-    height:800px ;
+    height:600px ;
+}
+div.fit{
+    background-color: red;
+    width:auto;
+    height:400px;
+}
+.guyot-headline{
+font-family: "guyot-headline", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size:40px;
+}
+.typing {
+    width: 1200px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #7E2EA0;
+    animation: typing 2s steps(12, end), cursor .2s steps(12, end) infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+}
+@keyframes cursor {
+    50% { border-color: transparent }
 }
