@@ -2,15 +2,13 @@
 .img{
     width:90px;
 }
-.navbar-brand{
-    background-color: red;
+div.ok{
+width:1350px;
+height:650px;
+background-color: red;
 }
 a{
-    color:black;
-    
-}
-body{
-    background-color: lightgrey;
+    color:black;  
 }
 .card{
     height:auto;
