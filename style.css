@@ -4,20 +4,23 @@
 }
 div.ok{
 width:1350px;
-height:650px;
+height:580px;
 background-color: red;
+margin-top:20px;
+margin-bottom:20px;
 }
 a{
     color:black;  
 }
-.card{
-    height:auto;
-    width:auto;
-   right:50px;
-   left:50px;
-   padding:10px;
+.card-text{
+    font-size:40px;
 }
+.card{
+    width:auto;
+justify-content: center;
+align-items:center;
 
+}
 header{
     height:60px;
 }
@@ -31,6 +34,7 @@ header{
 color:black;
 font-size:25px;
 }
+
 .rumba-extra{
 font-family: "rumba-extra", sans-serif;
 font-weight: 400;
@@ -38,12 +42,15 @@ font-style: normal;
 color:black;
 }
 .d-block{
-    height:600px ;
+    height:520px ;
 }
 div.fit{
     background-color: red;
     width:auto;
-    height:400px;
+    padding:500px;
+}
+div.oh{
+    padding:30px;
 }
 .guyot-headline{
 font-family: "guyot-headline", sans-serif;
