@@ -2,28 +2,46 @@
 .img{
     width:90px;
 }
-.navbar-brand{
-    background-color: red;
+div.ok{
+width:1350px;
+height:620px;
+background-color: red;
+margin-top:20px;
+margin-bottom:20px;
+}
+div.o{
+    padding:90px;
 }
 a{
-    color:black;
-    
+    color:black;  
 }
-body{
-    background-color: lightgrey;
+.img-fluid{
+    width:300px;
+}
+.card-text{
+    font-size:20px;
+}
+.card-img-top{
+    width:auto;
+    height:autos;
 }
 .card{
-    height:auto;
-    width:auto;
-   right:50px;
-   left:50px;
-   padding:10px;
+justify-content: center;
+align-items:center;
+width:550px;
+}
+div.card{
+    margin:50px;
+    background-image: linear-gradient(red, pink, lightpink)
 }
 header{
     height:60px;
 }
+.body{
+    background-image: url(newwhite.jpeg);
+}
 .card-body{
-    background-color:pink;
+background-color:rgb(255, 173, 173);
 }
 .nav-item{
     font-family: "rumba-extra", sans-serif;
@@ -32,12 +50,6 @@ header{
 color:black;
 font-size:25px;
 }
-div.line{
-    width:auto;
-    height:500px;
-    padding:500px;
-    background-color: rgb(202, 81, 122);
-}
 .rumba-extra{
 font-family: "rumba-extra", sans-serif;
 font-weight: 400;
@@ -45,16 +57,57 @@ font-style: normal;
 color:black;
 }
 .d-block{
-    height:800px ;
+    height:620px ;
+}
+div.fit{
+    background-color: red;
+    width:auto;
+    padding:620px;
+}
+div.oh{
+    margin-top:30px;
 }
 .guyot-headline{
 font-family: "guyot-headline", sans-serif;
 font-weight: 400;
 font-style: normal;
-font-size:40px;
+font-size:20px;
 }
-.lePeek span { animation-name: lePeek }
-@keyframes lePeek {
-    25% {  transform: rotateX(30deg) translateY(10px) rotate(-13deg); }
-    50% { transform: translateY(-22px) rotate(3deg) scale(1.1);  }
+.leMagnify span { animation-name: leMagnify }
+@keyframes leMagnify {
+   50% {
+       transform: scale(1.8);
+       letter-spacing: 26px
+   }
+}
+.leMagnify{
+   animation:leMagnify 2s ease forwards;
+}
+
+.impact{
+    font-size:90px;
+    font-family: "ivyora-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:red;
+}
+
+.ivyora-display{
+font-family: "ivyora-display", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size:22px;
+color:black;
+}
+.quador-display{
+font-family: "quador-display", serif;
+font-weight: 400;
+font-style: normal;
+}
+.accomplishments{
+    font-family: "quador-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:red;
+    font-size:65px;
 }
