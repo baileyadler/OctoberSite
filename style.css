@@ -1,112 +1,154 @@
+/*navbar image */
 .img{
-    width:60px;
-}
-.navbar{
-    height:170px;
-
-}
-div.ok{
-width:1350px;
-height:620px;
-background-color: red;
-margin-top:20px;
-margin-bottom:20px;
-}
-div.o{
+    width:90px;
+ }
+ div.ok{
+ width:1350px;
+ height:620px;
+ background-color: red;
+ margin-top:20px;
+ margin-bottom:20px;
+ }
+ div.o{
     padding:90px;
-}
-a{
-    color:black;  
-}
-.img-fluid{
+ }
+ .wreath{
+    font-family: "wreath", serif;
+ font-weight: 400;
+ font-style: normal;
+ font-size:80px;
+ color:red;
+ 
+ 
+ }
+ .imgs{
+    width:1000px;
+ }
+ .d-block w-100{
+    width:100%;
+ }
+ 
+ 
+ a{
+    color:black; 
+ }
+ .img-fluid{
     width:300px;
-}
-.card-text{
-    font-size:15px;
-}
-.card-img-top{
-    width:auto;
+ }
+ .card-text{
+    font-size:20px;
+ }
+ .card-img-top{
+    width:400px;
     height:auto;
-}
-.card{
-justify-content: center;
-align-items:center;
-width:480px;
-}
-div.card{
+ }
+ /* cards*/
+ .card{
+ justify-content: center;
+ align-items:center;
+ width:480px;
+ box-shadow: 5px 5px 5px red;
+ }
+ /*cards with gradient */
+ div.card{
     margin:50px;
     background-image: linear-gradient(red, pink, lightpink)
-}
-header{
+ }
+ header{
     height:60px;
-}
-.body{
+ }
+ .body{
     background-image: url(newwhite.jpeg);
-}
-.card-body{
-background-color:rgb(255, 173, 173);
-}
-.nav-item{
+ }
+ .card-body{
+ background-color:rgb(255, 173, 173);
+ }
+ .nav-item{
     font-family: "rumba-extra", sans-serif;
     font-weight: 400;
     font-style: normal;
-color:black;
-font-size:25px;
-}
-.rumba-extra{
-font-family: "rumba-extra", sans-serif;
-font-weight: 400;
-font-style: normal;
-color:black;
-}
-div.fit{
+ color:black;
+ font-size:22px;
+ }
+ .rumba-extra{
+ font-family: "rumba-extra", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ color:black;
+ }
+ .d-block{
+    height:620px ;
+ }
+ div.down{
+    margin-bottom:185px;
+ }
+ div.downs{
+    margin-bottom:240px;
+ }
+ div.fit{
     background-color: red;
     width:auto;
-    padding:700px;
-}
-div.oh{
+    padding:620px;
+ }
+ div.oh{
     margin-top:30px;
-}
-.guyot-headline{
-font-family: "guyot-headline", sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size:20px;
-}
-.leMagnify span { animation-name: leMagnify }
-@keyframes leMagnify {
+ }
+ .guyot-headline{
+ font-family: "guyot-headline", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ font-size:20px;
+ }
+ /* animation*/
+ .leMagnify span { animation-name: leMagnify }
+ @keyframes leMagnify {
    50% {
        transform: scale(1.8);
        letter-spacing: 26px
    }
-}
-.leMagnify{
+ }
+ .leMagnify{
    animation:leMagnify 2s ease forwards;
-}
-
-.impact{
-    font-size:90px;
+ }
+ 
+ 
+ .impact{
+    font-size:120px;
     font-family: "ivyora-display", sans-serif;
     font-weight: 400;
     font-style: normal;
     color:red;
-}
-.ivyora-display{
-font-family: "ivyora-display", sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size:19px;
-color:black;
-}
-.quador-display{
-font-family: "quador-display", serif;
-font-weight: 400;
-font-style: normal;
-}
-.accomplishments{
+ }
+ .impacts{
+    font-size:80px;
+    font-family: "ivyora-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+    background-color: pink;
+ }
+ /* font*/
+ .ivyora-display{
+ font-family: "ivyora-display", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ font-size:22px;
+ color:black;
+ }
+ /* another font*/
+ .quador-display{
+ font-family: "quador-display", serif;
+ font-weight: 400;
+ font-style: normal;
+ }
+ .accomplishments{
     font-family: "quador-display", serif;
     font-weight: 400;
     font-style: normal;
     color:red;
-    font-size:65px;
-}
+    font-size:55px;
+ }
+ body{
+    background-image: radial-gradient(red, white)
+ }
+ 
